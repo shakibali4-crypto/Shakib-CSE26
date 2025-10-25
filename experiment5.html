@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Registration Form</title>
+</head>
+<body>
+    <center><h2>Student Registration Form</h2></center><hr>
+    <form>
+      <label for="fullname">Full Name:</label>
+      <input type="text" id="fullname" placeholder="Enter your full name"><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" placeholder="Enter valid email address"><br><br>
+
+      <label for="password">Password:</label>
+      <input type="password" id="password" placeholder="Enter password"><br><br>
+
+      <label>Gender:</label>
+       <label><input type="radio" name="gender" value="male"> Male</label>
+       <label><input type="radio" name="gender" value="female"> Female</label>
+       <label><input type="radio" name="gender" value="other"> Other</label>
+       <br><br>
+
+      <label for="course">Course:</label>
+      <select id="course">
+        <option value="">Select Course</option>
+        <option value="btech">B.Tech</option>
+        <option value="bca">BCA</option>
+        <option value="bsc">B.Sc</option>
+        <option value="mba">MBA</option>
+      </select><br><br>
+
+      <label for="contact">Contact No.:</label>
+      <input type="text" id="contact" placeholder="Enter phone number"><br><br>
+
+      <label for="address">Address:</label><br>
+      <textarea id="address" rows="4" placeholder="Enter your address"></textarea><br><br>
+
+       <button type="submit">Register</button>
+       <button type="reset">Clear</button>
+    </form>
+     <hr>
+  <center><footer>© 2015 Student Registration Portal</footer></center>
+</body>
+</html>
